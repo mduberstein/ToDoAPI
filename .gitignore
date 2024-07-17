@@ -1,0 +1,561 @@
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+bin/
+obj/
+.vscode/
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.suo
+*.sln
+*.user
+*.userprefs
+*.dotCover
+*.ReSharper
+*.ReSharperSolution
+_ReSharper*
+*.ReSharper.User
+*.resharper
+_ReSharper.Caches
+.idea/.idea.*
+.idea/.rider.*
+
+# Rider / IntelliJ
+.idea
+.idea_modules
+
+# Rider preferences directory
+# JetBrains Rider - Significantly improves Rider's performance in large projects
+.idea/.rider/
+
+# Rider Module files
+.idea/.idea.*
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+.idea_tasks/
+.idea_modules/
+.idea/cache/
+.idea/artifacts/
+
+# Rider
+.idea/vcs.xml
+.idea/workspace.xml
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider artifacts directory
+.idea/tasks.xml
+
+# Rider caches
+.idea/.idea.cache
+.idea/.idea.module
+.idea/.idea.scope
+
+# Rider
+.idea/.idea_modules.xml
+.idea/.idea_modules_modules.xml
+
+# Rider config
+.idea/.idea.project.view.xml
+.idea/.idea.folder.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea/workspace.xml
+
+# Rider artifacts directory
+.idea/tasks.xml
+.idea/tasks.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider artifacts directory
+.idea/tasks.xml
+.idea_tasks/
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea
+.idea_modules/
+.idea/workspace.xml
+
+# Rider IDE caches
+.idea/.idea.cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider preferences directory
+.idea/.idea.*
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.idea.settings.xml
+.idea/.idea_config
+.idea/.idea_settings
+
+# Rider caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea_modules/
+.idea_modules
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider IDE
+.idea/libraries
+.idea_modules
+
+# Rider task and library caches
+.idea/.idea.tasks.xml
+.idea/.idea.libraries.xml
+
+# Rider IDE caches
+.idea/.idea_cache
+
+# Rider / IntelliJ
+.idea/.idea.*
+.idea_modules/
+.idea/workspace.xml
+
+# Rider project structure
+.idea/.idea.project_structure.xml
+
+# Rider configuration
+.idea/.idea.library.xml
+.idea/.
