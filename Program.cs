@@ -20,9 +20,21 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    // Tutorial: Call an ASP.NET Core web API with JavaScript
+    // https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-8.0
+    app.UseDeveloperExceptionPage();
+
+    // Tutorial: Create a web API with ASP.NET Core
+    // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio-code
+    // Enable middleware to serve generated Swagger as a JSON endpoint.
+    // app.UseSwagger();
+    // app.UseSwaggerUI();
 }
+
+// Tutorial: Call an ASP.NET Core web API with JavaScript _START
+app.UseDefaultFiles();
+app.UseStaticFiles();
+// Tutorial: Call an ASP.NET Core web API with JavaScript
 
 app.UseHttpsRedirection();
 
