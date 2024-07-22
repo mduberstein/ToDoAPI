@@ -28,7 +28,11 @@ if (app.Environment.IsDevelopment())
     // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio-code
     // Enable middleware to serve generated Swagger as a JSON endpoint.
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options => // UseSwaggerUI is called only in Development.
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
+    });
 }
 
 // // Tutorial: Call an ASP.NET Core web API with JavaScript _START
