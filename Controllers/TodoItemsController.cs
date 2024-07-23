@@ -5,6 +5,7 @@ using TodoApi.Models;
 namespace TodoApi.Controllers;
 
 [Route("api/[controller]")]
+[Produces("application/json")]
 [ApiController]
 public class TodoItemsController : ControllerBase
 {
