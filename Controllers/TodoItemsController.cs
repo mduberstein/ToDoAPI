@@ -95,7 +95,13 @@ public class TodoItemsController : ControllerBase
     }
     // </snippet_Create>
 
+
     // DELETE: api/TodoItems/5
+    /// <summary>
+    /// Deletes a specific TodoItem.
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteTodoItem(long id)
     {
