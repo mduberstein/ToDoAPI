@@ -1,3 +1,4 @@
+using System.Net.Mime;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
@@ -28,6 +29,8 @@ public class TodoItemsController : ControllerBase
     // GET: api/TodoItems/5
     // <snippet_GetByID>
     [HttpGet("{id}")]
+    [ProducesResponseType<TodoItemDTO>(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<TodoItemDTO>> GetTodoItem(long id)
     {
         var todoItem = await _context.TodoItems.FindAsync(id);
@@ -96,6 +99,7 @@ public class TodoItemsController : ControllerBase
     /// <response code="201">Returns the newly created item</response>
     /// <response code="400">If the item is null</response>
     [HttpPost]
+    [Consumes(MediaTypeNames.Application.Json)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<TodoItemDTO>> PostTodoItem(TodoItemDTO todoDTO)
@@ -110,7 +114,7 @@ public class TodoItemsController : ControllerBase
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(
-            nameof(GetTodoItem),
+            nameof(PostTodoItem),
             new { id = todoItem.Id },
             ItemToDTO(todoItem));
     }
